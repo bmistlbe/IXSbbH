@@ -1,0 +1,51 @@
+mH=125.09
+ECM=13000
+muF=31.2725
+muR=125.09
+mb=4.18
+mZ=91.1876
+PDFSet=PDF4LHC15_nnlo_mc
+PDFMember=0
+MCPrecision=0.01
+FONNLL=0
+Mb_OS=4.58
+
+
+XS at N^0LO for the channel b ab 	= 0.453836 +- 4.72291e-05 pb +- 0.0104066 % 
+XS at N^1LO for the channel b ab 	= 0.518609 +- 7.54003e-05 pb +- 0.0145389 % 
+XS at N^2LO for the channel b ab 	= 0.534952 +- 0.000103352 pb +- 0.0193199 % 
+XS at N^3LO for the channel b ab 	= 0.533904 +- 0.000151355 pb +- 0.0283488 % 
+XS at N^0LO for the channel b g 	= 0 +- 0 pb +- nan % 
+XS at N^1LO for the channel b g 	= 0.0141514 +- 0.000219102 pb +- 1.54828 % 
+XS at N^2LO for the channel b g 	= -0.00322304 +- 0.000396421 pb +- 12.2996 % 
+XS at N^3LO for the channel b g 	= -0.0229779 +- 0.000868024 pb +- 3.77765 % 
+XS at N^0LO for the channel b q 	= 0 +- 0 pb +- nan % 
+XS at N^1LO for the channel b q 	= 0 +- 0 pb +- nan % 
+XS at N^2LO for the channel b q 	= 0.00328442 +- 5.84507e-06 pb +- 0.177964 % 
+XS at N^3LO for the channel b q 	= 0.00487833 +- 1.09222e-05 pb +- 0.223893 % 
+XS at N^0LO for the channel b qbar 	= 0 +- 0 pb +- nan % 
+XS at N^1LO for the channel b qbar 	= 0 +- 0 pb +- nan % 
+XS at N^2LO for the channel b qbar 	= 0.00328641 +- 5.85112e-06 pb +- 0.17804 % 
+XS at N^3LO for the channel b qbar 	= 0.00497253 +- 1.09725e-05 pb +- 0.220662 % 
+XS at N^0LO for the channel b b 	= 0 +- 0 pb +- nan % 
+XS at N^1LO for the channel b b 	= 0 +- 0 pb +- nan % 
+XS at N^2LO for the channel b b 	= 9.87153e-05 +- 3.56181e-07 pb +- 0.360817 % 
+XS at N^3LO for the channel b b 	= 0.000147333 +- 7.40126e-07 pb +- 0.502348 % 
+XS at N^0LO for the channel g g 	= 0 +- 0 pb +- nan % 
+XS at N^1LO for the channel g g 	= 0 +- 0 pb +- nan % 
+XS at N^2LO for the channel g g 	= 0.00557094 +- 9.46009e-05 pb +- 1.69811 % 
+XS at N^3LO for the channel g g 	= 0.00929663 +- 0.000198436 pb +- 2.13449 % 
+XS at N^0LO for the channel q qbar 	= 0 +- 0 pb +- nan % 
+XS at N^1LO for the channel q qbar 	= 0 +- 0 pb +- nan % 
+XS at N^2LO for the channel q qbar 	= 0.000113499 +- 2.78811e-07 pb +- 0.245651 % 
+XS at N^3LO for the channel q qbar 	= 0.000108985 +- 4.78743e-07 pb +- 0.439275 % 
+XS at N^0LO for the channel q g 	= 0 +- 0 pb +- nan % 
+XS at N^1LO for the channel q g 	= 0 +- 0 pb +- nan % 
+XS at N^2LO for the channel q g 	= 0 +- 0 pb +- nan % 
+XS at N^3LO for the channel q g 	= 0.000804588 +- 1.28622e-05 pb +- 1.5986 % 
+
+xs at N0LO 	=0.453836 +- 4.72291e-05 pb +- 0.0104066 % 
+xs at N1LO 	=0.532761 +- 0.000231713 pb +- 0.0434929 % 
+xs at N2LO 	=0.544083 +- 0.000420534 pb +- 0.0772923 % 
+xs at N3LO 	=0.531134 +- 0.000903414 pb +- 0.170091 % 
+

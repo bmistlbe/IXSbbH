@@ -1,0 +1,61 @@
+Program for the computation of the inclusive production cross section of a Higgs boson via the fusion of two massless bottom quarks. Please cite [arXiv:1904.09990](https://arxiv.org/abs/1904.09990).
+
+# REQUIREMENTS
+* [LHAPDF](https://lhapdf.hepforge.org/) with version at least `6.1`
+* [CUBA](http://www.feynarts.de/cuba/) with version at least `4.2`
+# Cuba can be compiled together with the source if in the makefile "#WITH_CUBA=true" is replaced with "WITH_CUBA=true"
+
+# INSTALLATION
+
+Prior to installation adjust the following paths in the Makefile
+```
+LHAPDF_HEADER_DIR=/path/to/your/LHAPDF/header
+LHAPDF_LIBRARY_DIR=/path/to/your/LHAPDF/library
+CUBA_HEADER_DIR=/path/to/your/Cuba/header (if your own version is used, otherwise ignore)
+CUBA_LIBRARY_DIR=/path/to/your/Cuba/library (if your own version is used, otherwise ignore)
+```
+
+Including the library paths in your 
+- (Mac) `DYLD_LIBRARY_PATH`
+- (Linux) `LD_LIBRARY_PATH`
+
+may solve runtime issues.
+For example on a Mac run 
+
+```export DYLD_LIBRARY_PATH=$DYLD_LIBRARY_PATH:/path/to/your/LHAPDF/library:/path/to/your/Cuba/library```
+
+The environment variable "LHAPDF_DATA_PATH" should be set to the directory, where you keep the LHAPDF grids.
+Export LHAPDF_DATA_PATH=/path/to/your/grids
+
+
+
+To build the executable run: `make` in the repository root folder.
+This creates the program `main`.
+
+
+
+
+
+# USAGE:
+```
+./main (inputfile)
+
+Specifying an inputfile is optional.
+In the input file you can specify various parameters.
+
+Example Input File:
+mH=125.09 			 	# Higgs boson mass in GeV - default is 125.09
+ECM=13000 			 	# Center of mass energy  in GeV - default is 13000
+muF=31.2725 			 	# Factorisation Scale  in GeV - default is 31.2725
+muR=125.09 			 	# Renormalisation Scale  in GeV - default is 125.09
+mb=4.18 			 	# Bottom Quark Mass  in GeV - default is 4.18
+mZ=91.1876 			 	# Z boson mass  in GeV - default is 91.1876
+PDFSet=PDF4LHC15_nnlo_mc 		# PDF Set - default is PDF4LHC15_nnlo_mc
+PDFMember=0 			 	# PDF member - default is 0
+MCPrecision=0.001 			# Relative integration target precision - default is 0.001
+outputfile=output.txt			# File to store the output - default is output.txt.
+FONNLL=0				# Compute FONNLL counterterm? (default is 0: regular 5 flavour cross section; 1: overlap of 4 and 5 flavour cross section)
+Mb_OS=4.58				# On-Shell Mass of the bottom quark, required for FONNLL counter term only, default is 4.58
+```
+
+Afte the program run completes sucessfully the output file will contain the cross section numbers.

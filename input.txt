@@ -1,0 +1,11 @@
+mH=125.09 			 	# Higgs boson mass - default is 125.09
+ECM=13000 			 	# Center of mass energy - default is 13000
+muF=31.2725 			 	# Factorisation Scale - default is 31.2725
+muR=125.09 			 	# Renormalisation Scale - default is 125.09
+mb=4.18 			 	# Bottom Quark Mass - default is 4.18
+mZ=91.1876 			 	# Z boson mass - default is 91.1876
+PDFSet=PDF4LHC15_nnlo_mc 		# PDF Set - default is PDF4LHC15_nnlo_mc
+PDFMember=0 			 	# PDF member - default is 0
+MCPrecision=0.01 			# Relative integration target precision - default is 0.0001
+FONNLL=0				# Compute FONNLL counterterm? (default is 0: regular 5 flavour cross section; 1: overlap of 4 and 5 flavour cross section)
+Mb_OS=4.58				# On-Shell Mass of the bottom quark, required for FONNLL counter term only, default is 4.58

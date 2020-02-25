@@ -25,11 +25,11 @@ For example on a Mac run
 ```export DYLD_LIBRARY_PATH=$DYLD_LIBRARY_PATH:/path/to/your/LHAPDF/library:/path/to/your/Cuba/library```
 
 The environment variable "LHAPDF_DATA_PATH" should be set to the directory, where you keep the LHAPDF grids.
-Export LHAPDF_DATA_PATH=/path/to/your/grids
+```export LHAPDF_DATA_PATH=/path/to/your/grids```
 
 
 
-To build the executable run: `make` in the repository root folder.
+To build the executable run: `make` in the repository root directory.
 This creates the program `main`.
 
 
@@ -55,7 +55,7 @@ PDFMember=0 			 	# PDF member - default is 0
 MCPrecision=0.001 			# Relative integration target precision - default is 0.001
 outputfile=output.txt			# File to store the output - default is output.txt.
 FONNLL=0				# Compute FONNLL counterterm? (default is 0: regular 5 flavour cross section; 1: overlap of 4 and 5 flavour cross section)
-Mb_OS=4.58				# On-Shell Mass of the bottom quark, required for FONNLL counter term only, default is 4.58
+Mb_OS=4.58				# On-Shell Mass of the bottom quark in GeV, required for FONNLL counter term only, default is 4.58
 ```
 
 Afte the program run completes sucessfully the output file will contain the cross section numbers.

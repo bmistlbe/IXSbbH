@@ -1,4 +1,4 @@
-CFLAGS = -m64 -fopenmp -O3 -std=c++11 -w
+CFLAGS = -m64 -std=c++11 -w
 
 ## Comment the line below if you want to use your own CUBA version 
 #WITH_CUBA=true
